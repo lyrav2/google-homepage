@@ -8,3 +8,9 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+header {
+    display: grid;
+    grid-row-gap: 5%;
+    
+}
