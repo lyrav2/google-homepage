@@ -8,35 +8,40 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: scroll;
 }
 
 header {
-    display: inline;
-    text-decoration: none;
+    float: left
 }
 
 header.hover {
     text-decoration: underline;
 }
 
+header a {
+    background-color: rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
+    display: inline;
+    text-decoration: none;
+    font-size: 300;
+    color: rgb(26, 24, 24);
+}
+
 .about {
     float: left;
-    padding: 10px;
 }
 
 .store {
 	float: left;
-    padding: 10px;
 }
 
 .gmail {
 	float: right;
-    padding: 10px;
 }
 
 .images {
 	float: right;
-    padding: 10px;
 }
 
 body {
