@@ -19,12 +19,12 @@ header.hover {
     text-decoration: underline;
 }
 
-header a {
+header li {
     background-color: rgb(255, 255, 255);
     border-right: 1px solid rgb(255, 255, 255);
     display: inline;
     text-decoration: none;
-    font-size: 300;
+    font-size: 200;
     color: rgb(26, 24, 24);
 }
 
