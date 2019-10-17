@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Arial", sans-serif;
 }
 
 ul {
@@ -10,7 +11,29 @@ ul {
 }
 
 header {
-    display: grid;
-    grid-row-gap: 5%;
-    grid-area: 1 / 1 / span 2 / span 6;
+    display: inline;
+}
+
+.about {
+    float: left;
+    padding: 10px;
+}
+
+.store {
+	float: left;
+    padding: 10px;
+}
+
+.gmail {
+	float: right;
+    padding: 10px;
+}
+
+.images {
+	float: right;
+    padding: 10px;
+}
+
+body {
+	text-align: justify;
 }
