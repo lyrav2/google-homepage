@@ -2,30 +2,35 @@
     margin: 0;
     padding: 0;
     font-family: "Arial", sans-serif;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+
+html {
+    min-width: 1139px;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: scroll;
 }
 
-header {
-    float: left
+a:hover {
+    text-decoration: underline!important;
 }
 
-header.hover {
-    text-decoration: underline;
-}
-
-header a {
-    background-color: rgb(255, 255, 255);
-    border-right: 1px solid rgb(255, 255, 255);
-    display: inline;
+.header a {
+    padding: 10px;
     text-decoration: none;
-    font-size: 200;
-    color: rgb(26, 24, 24);
+    color: rgb(12, 12, 12);
+}
+
+.header {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+    padding-top: 23px;
+    padding-left: 15px;
+    padding-right: 10px;
 }
 
 .about {
@@ -44,6 +49,135 @@ header a {
 	float: right;
 }
 
+.shortcut {
+    float: right;
+}
+
+.user {
+    float: right;
+}
+
 body {
-	text-align: justify;
+    text-align: center;
+}
+
+.logo {
+    margin-top: 175px;
+    margin-bottom: 20px;
+    margin-left: 126px;
+    margin-right: auto;
+}
+
+.logo .footer .header {
+    display: block;
+}
+
+input[type=text] {
+    background-color: transparent;
+    border: none;
+    margin: 0 auto;
+    font-size: 16px;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    position: relative;
+    bottom: 42px;
+    width: 527px;
+    height: 39px;
+    z-index: 3;
+}
+
+.searchbar {
+    transition: box-shadow .1s;
+    width: 584px;
+    height: 44px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 2px;
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+
+.searchbar:hover {
+    box-shadow:  0 0 1px  rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 1px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 1px  rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 1px  rgba(0,0,0,0.6);
+}
+
+
+input[type=submit] {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.device {
+    margin: 10px;
+}
+
+.french {
+    padding-top: 40px;
+}
+
+.country {
+    background-color: rgba(156, 156, 146, 0.096);
+    border-bottom: 1px solid #e4e4e4;
+    line-height: 40px;
+}
+
+.advertising {
+    float: left;
+}
+
+.business {
+    float: left;
+}
+
+.howsearchworks {
+    float: left;
+}
+
+.privacy {
+    float: right!important;
+}
+
+.terms {
+    float: right!important;
+}
+
+.settings {
+    float: right!important;
+}
+
+.footer {
+    background-color: rgba(156, 156, 146, 0.096);
+    bottom: 0;
+    display: block;
+    height: 35px;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.footer a {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(26, 24, 24);
 }
