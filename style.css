@@ -12,6 +12,11 @@ ul {
 
 header {
     display: inline;
+    text-decoration: none;
+}
+
+header.hover {
+    text-decoration: underline;
 }
 
 .about {
